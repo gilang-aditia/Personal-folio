@@ -1,0 +1,37 @@
+{
+    "job": "Frontend Developer",
+    "name": "Gilang Aditia",
+    "desc": "Frontend Developer dan UI/UX Designer",
+    // "aboutDesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "email": "gaditia744@gmail.com",
+    "status": "on",
+    "hireMeLink": "gaditia744@gmail.com",
+    "projects": [
+      {
+        "project-link": "/src/pages/Projects.jsx",
+        "project-image-url": "/src/assets/app-icon.png",
+        "project-name": "Project Saya",
+        "project-desc": ""
+      }
+      
+    ],
+    "social": [
+      {
+        "icon": "FaXTwitter",
+        "link": "https://x.com"
+      },
+      {
+        "icon": "FaInstagram",
+        "link": "https://instagram.com"
+      },
+      {
+        "icon": "FaGithub",
+        "link": "https://github.com"
+      },
+      {
+        "icon": "FaLinkedinIn",
+        "link": "https://linkedin.com"
+      }
+    ]
+  }
+  
