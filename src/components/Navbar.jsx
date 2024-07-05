@@ -8,14 +8,14 @@ export default function Navbar() {
     <>
       <header className="py-1 px-2 fixed top-0 left-0 w-full z-40">
         <div className="mx-auto max-w-xl ">
-          <navbar className="backdrop-filter backdrop-blur-lg bg-black bg-opacity-40 rounded-xl flex items-center justify-between shadow-md">
+          <navbar className="backdrop-filter backdrop-blur-lg bg-white bg-opacity-40 rounded-xl flex items-center justify-center shadow-md">
             <div className="flex gap-x-5 px-5 py-3 ">
               <NavLink
                 to="/"
                 className={({ isActive }) =>
                   isActive
                     ? "bg-white text-black rounded-full p-2 transition-all duration-300"
-                    : "opacity-50 p-2 hover:bg-white hover:text-black rounded-full transition-all duration-300 hover:opacity-100"
+                    : "opacity-50 p-2 hover:bg-white rounded-full transition-all duration-300 hover:opacity-100"
                 }>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +37,7 @@ export default function Navbar() {
                 className={({ isActive }) =>
                   isActive
                     ? "bg-white text-black rounded-full p-2 transition-all duration-300"
-                    : "opacity-50 p-2 hover:bg-white hover:text-black rounded-full transition-all duration-300 hover:opacity-100"
+                    : "opacity-50 p-2 hover:bg-white hover:text-black  rounded-full transition-all duration-300 hover:opacity-100"
                 }>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
