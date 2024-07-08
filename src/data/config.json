@@ -17,20 +17,20 @@
     ],
     "social": [
       {
+        "icon": "FaGithub",
+        "link": "https://github.com/gilang-aditia"
+      },
+      {
+        "icon": "FaLinkedinIn",
+        "link": "https://www.linkedin.com/in/gilang-aditia-b79461231/"
+      },
+      {
         "icon": "FaXTwitter",
         "link": "https://x.com"
       },
       {
         "icon": "FaInstagram",
         "link": "https://instagram.com"
-      },
-      {
-        "icon": "FaGithub",
-        "link": "https://github.com"
-      },
-      {
-        "icon": "FaLinkedinIn",
-        "link": "https://linkedin.com"
       }
     ]
   }

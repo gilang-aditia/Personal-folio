@@ -10,7 +10,10 @@ export default function Home() {
         </h1>
       </div>
       <div className="grid gap-4 p-3 sm:grid-cols-2">
-        <Card href="https://ssayomart.com/" className="max-w-sm">
+        <Card
+          href="https://ssayomart.com/"
+          className="max-w-sm"
+          target={"_blank"}>
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Company Profile Ssayomart
           </h5>
@@ -20,7 +23,10 @@ export default function Home() {
             sehari-hari dengan rasa dan kualitas autentik.
           </p>
         </Card>
-        <Card href="https://apps.ssayomart.com/" className="max-w-sm">
+        <Card
+          href="https://apps.ssayomart.com/"
+          className="max-w-sm"
+          target={"_blank"}>
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Ssayomart App
           </h5>
@@ -34,7 +40,8 @@ export default function Home() {
       <div className="grid gap-4 p-3 sm:grid-cols-2">
         <Card
           href="https://gilang-aditia.github.io/PT_Boga/"
-          className="max-w-sm">
+          className="max-w-sm"
+          target={"_blank"}>
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Company Profile PT BOGA ETERNA SENTOSA
           </h5>
@@ -47,7 +54,10 @@ export default function Home() {
             menikmati kelezatan autentik tanpa kekhawatiran.
           </p>
         </Card>
-        <Card href="https://react-chill-movie.web.app/" className="max-w-sm">
+        <Card
+          href="https://react-chill-movie.web.app/"
+          className="max-w-sm"
+          target={"_blank"}>
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Movie Chill
           </h5>

@@ -21,11 +21,11 @@ export default function Social() {
           <div className="flex gap-x-1 ">
             {socialLinks.map((socialLink, index) => {
               const iconMap = {
+                FaGithub,
+                FaLinkedinIn,
                 FaXTwitter,
                 FaInstagram,
                 FaDribbble,
-                FaGithub,
-                FaLinkedinIn,
               };
               const IconComponent = iconMap[socialLink.icon];
 
@@ -33,6 +33,7 @@ export default function Social() {
                 <a
                   key={index}
                   href={socialLink.link}
+                  target={"_blank"}
                   className="bg-white p-2 rounded-full text-black duration-300 border-2 border-gray-100 hover:border-gray-200 drop-shadow-sm">
                   {<IconComponent size={20} />}
                 </a>
