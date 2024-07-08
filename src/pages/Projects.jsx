@@ -70,6 +70,39 @@ export default function Home() {
           </p>
         </Card>
       </div>
+      <div className="grid gap-4 p-3 sm:grid-cols-2">
+        <Card
+          href="https://developer-tim-sdn1-teluk.github.io/SD-Negeri-1-Teluk/"
+          className="max-w-sm"
+          target={"_blank"}>
+          <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            SDN Negri 1 Teluk Purwokerto
+          </h5>
+          <p className="font-normal text-gray-700 dark:text-gray-400">
+            Sebagai lembaga pendidikan. SD Negeri 1 Teluk tanggap dengan
+            perkembangan teknologi tersebut. Dengan dukungan SDM yang di
+            milikisekolah ini siap untuk berkompetisidengan sekolah lain dalam
+            pelayanan informasi publik. Teknologi informasi Web khususnya,
+            menjadi sarana bagi SD Negeri 1 Teluk untuk memberi pelayanan
+            informasi secara cepat dan jelas.
+          </p>
+        </Card>
+        {/* <Card
+          href="https://react-chill-movie.web.app/"
+          className="max-w-sm"
+          target={"_blank"}>
+          <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            Movie Chill
+          </h5>
+          <p className="font-normal text-gray-700 dark:text-gray-400">
+            Movie Chill adalah sebuah situs web inovatif yang dirancang untuk
+            para pecinta film untuk menemukan, menonton, dan melacak film
+            favorit mereka. Dengan perpustakaan film yang luas dari berbagai
+            genre dan era, Movie Chill menyediakan pengalaman streaming yang
+            mulus dan disesuaikan dengan preferensi setiap pengguna.
+          </p>
+        </Card> */}
+      </div>
     </>
   );
 }
