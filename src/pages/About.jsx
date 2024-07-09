@@ -64,7 +64,7 @@ export default function About() {
       </div>
       <div className="flex flex-col items-center text-center justify-center">
         <h1 className="text-2xl font-bold text-black">Tetap Semangat!</h1>
-        <p className="text-md font-light text-gray-600 mt-2 text-center px-3 italic">
+        <p className="text-sm font-light text-gray-600 mt-0 text-center italic p-10">
           Setiap baris kode yang kamu tulis membawa kita satu langkah lebih
           dekat ke masa depan yang lebih baik.
         </p>
