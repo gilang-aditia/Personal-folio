@@ -70,7 +70,7 @@ export default function About() {
         </p>
       </div>
 
-      <div className="flex  md:flex md:flex-row md:items-center justify-center py-8">
+      {/* <div className="flex  md:flex md:flex-row md:items-center justify-center py-8">
         <div className="flex flex-col gap-y-2">
           <div className="flex items-center text-center md:text-justify justify-center md:justify-normal">
             <a href={configData.hireMeLink}>
@@ -96,7 +96,7 @@ export default function About() {
             <CopyEmailButton />
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
